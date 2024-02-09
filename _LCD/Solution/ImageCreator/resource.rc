@@ -1,0 +1,16 @@
+#include "resource.h"
+
+#include <windows.h>
+
+IDI_ICON1 ICON "ResourceFiles\\icon.ico"
+
+CREATEPROCESS_MANIFEST_RESOURCE_ID RT_MANIFEST "ResourceFiles\\manifest.xml"
+
+IDM_MENU1 MENU
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "Open", IDM_OPEN
+        MENUITEM "Exit", IDM_EXIT
+    END
+END

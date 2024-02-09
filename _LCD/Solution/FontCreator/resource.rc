@@ -1,0 +1,7 @@
+#include "resource.h"
+
+#include <windows.h>
+
+IDI_ICON1 ICON "ResourceFiles\\icon.ico"
+
+CREATEPROCESS_MANIFEST_RESOURCE_ID RT_MANIFEST "ResourceFiles\\manifest.xml"
